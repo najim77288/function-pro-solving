@@ -6,19 +6,16 @@
       // instead of numbers
 
 
-function cubeNumber (number) {
-// return error message if we get other data typesinstead of numbers
- if (typeof number !== 'number'){
-    return "Please provide a number"
- }
+// function cubeNumber (number) {
+// // return error message if we get other data typesinstead of numbers
+//  if (typeof number !== 'number'){
+//     return "Please provide a number"
+//  }
 
-// convert the number to cube
-const result = Math.pow(number, 3);
-//return the result
-return result;
-}
-console.log(cubeNumber(8))
-
-
-
+// // convert the number to cube
+// const result = Math.pow(number, 3);
+// //return the result
+// return result;
+// }
+// console.log(cubeNumber(8))
 
